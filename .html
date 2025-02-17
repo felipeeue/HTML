@@ -26,6 +26,16 @@
             border-radius: 5px;
             font-family: monospace;
         }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
     </style>
 </head>
 <body>
@@ -36,10 +46,17 @@
         <h2>⚡ O que é Corrente Contínua?</h2>
         <p>A corrente contínua (CC) é o fluxo contínuo de elétrons em uma única direção. É usada em baterias, fontes de alimentação e dispositivos eletrônicos.</p>
         
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Corrente_continua.png" alt="Exemplo de Corrente Contínua">
+        </div>
+        
         <h2>📜 Leis Fundamentais</h2>
         <h3>Lei de Ohm</h3>
         <p>A relação entre tensão, corrente e resistência é expressa por:</p>
         <p><code>V = R * I</code></p>
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ohm%27s_Law_with_Voltage_source.svg/600px-Ohm%27s_Law_with_Voltage_source.svg.png" alt="Fórmula da Lei de Ohm">
+        </div>
         
         <h2>📚 Teoremas e Métodos de Cálculo</h2>
         <h3>Leis de Kirchhoff</h3>
@@ -60,17 +77,6 @@
         
         <h3>Teorema da Máxima Transferência de Potência</h3>
         <p>A máxima potência será transferida para a carga quando sua resistência for igual à resistência da fonte.</p>
-        
-        <h3>Método de Simulação para Resolução de Circuitos</h3>
-        <p>A simulação de circuitos é uma ferramenta poderosa para verificar o comportamento de circuitos antes da implementação prática.</p>
-        <h4>Passos para Simulação</h4>
-        <ol>
-            <li>Escolha um simulador online como <a href="https://www.falstad.com/circuit/">Falstad Circuit Simulator</a> ou <a href="https://www.tinkercad.com/circuits">Tinkercad Circuits</a>.</li>
-            <li>Monte o circuito usando os componentes necessários.</li>
-            <li>Configure valores de resistência, fontes de tensão e corrente.</li>
-            <li>Execute a simulação e observe os valores de corrente e tensão.</li>
-            <li>Compare os resultados com os cálculos teóricos.</li>
-        </ol>
         
         <h2>🔧 Análise de Circuitos</h2>
         <h3>Método das Malhas</h3>
